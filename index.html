@@ -7,112 +7,123 @@
     <title>Days of Service Austin</title>
     <link href="./output.css" rel="stylesheet">
     <link href="./input.css" rel="stylesheet">
-    <!-- You can include other meta tags, stylesheets, or scripts here -->
+    <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+
+
+    <style>
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #8b8beb, #da6125);
+        }
+        
+    </style>
 </head>
 
 <body class="flex flex-col gap-10">
     <navbar class="w-full flex flex-col md:px-[20vw]">
         <ul class="flex flex-row justify-between sticky ">
-            <img class="w-1/6" src="/public/flag-orpheus-top.png"/>
+            <img class="w-1/4" src="public/flag-orpheus-top.png"/>
         </ul>
     </navbar>
 
     <header class="flex flex-col gap-2 items-start px-5 md:px-[20vw]">
-        <h1 class="font-semibold text-4xl md:text-5xl lg:text-6xl">
-            Oasis is a gender-focused hackathon in Austin, Texas
+        <h1 class="font-semibold text-4xl md:text-5xl lg:text-6xl gradient-text">
+            Oasis ☀️ is a gender-focused hackathon in Austin, Texas
         </h1>
-        <span class="text-lg md:text-xl">🗓️ June 8 📍FUTO HQ</span>
-        <button>
-            Register Now
-        </button>
     </header>
+    <span class="items-start px-5 md:px-[20vw] text-lg pt-12 md:text-xl">June 8, 2024 @ <a href="https://futo.org/">FUTO Headquarters</a> • <button><a href="">Register Now</button></a> to participate</span>
 
-    <main class="w-full px-5 md:px-[20vw] flex flex-col gap-20">
-        <section>
-            <span class="font-bold text-2xl md:text-3xl">Welcome, hacker</span>
-            <p>
-                Imagine you're in the desert. Sand and dunes surrounding you. It's so hot. You look to your canteen for water, and only see a few drops, but fret not, traveler! You see an oasis ahead: a lovely island flourishing with geysers and flowers... But your journey isn't at end... its just begun.
-            </p>
-        </section>
+
+    <main class="w-full md:px-[20vw] flex flex-col gap-20">
         
         <section class="flex flex-col gap-5">
-            <span class="font-bold text-2xl md:text-3xl">What is a hackathon?</span>
-            <p>
-                A hackathon is a social coding marathon where teenagers come together to build projects for a weekend and share them with the world. 
+            <span class="font-bold text-2xl md:text-3xl gradient-text">What Are <button class="inline block">"Hackathons"</button></span>
+            <p class="w-1/2">
+                A <a href="">hackathon</a> is a social coding marathon where teenagers come together to build projects for a weekend and share them with the world. We welcome all high school programmers, artists, dreamers, creators to join us for 8 hours of building, exploring, and sharing.
             </p>
             <p>
-                The Hack Club Days-of-Service initiative aims to help girls and gender minorities write their first lines of code. Partnering with Girls Scouts across the nation, the DOS initiative approaches Computer Science with beginner-friendly workshops.
+                The Hack Foundation <a href="https://daysofservice.hackclub.com/">Days-of-Service</a> initiative aims to help girls and gender minorities write their first lines of code. Partnering with Girls Scouts across the nation, the DOS initiative approaches Computer Science with beginner-friendly workshops.
             </p>
         </section>
         <section class="w-full flex flex-col justify-between gap-5 ">
-            <span class="font-bold text-2xl md:text-3xl">Hacks</span>
-            <div class="w-full flex flex-row items-center justify-between gap-5 ">
-                <div class="w-full flex flex-col gap-2 p-3 border-4 border-indigo-600 rounded-lg ">
-                    <span class="font-bold text-2xl md:text-3xl">Sprig!</span>
-                    <img class="w-20" src=""/>
-                    <p class="text-base md:text-sm">
-                        
-Join the fun with Sprig at our hackathon! With our game console, everyone's a creator. Design, compose music, and build games using our web-based editor. Create your own unique game, and we'll send you a Sprig kit to bring it to life! 
+            <span class="font-bold text-2xl md:text-3xl gradient-text">Our Learning <button class="inline block">Tracks</button></span>
+    
+            <div class="w-full flex flex-col gap-2 p-4 rounded-lg ">
+                <span class="font-bold text-2xl md:text-3xl">Video Game Development 👾</span>
+                    <p>
+                        Join the fun with <a href="">Sprig</a> at our hackathon. With our game console, everyone's a creator. Design, compose music, and build games using our web-based editor. Create your own unique game, and we'll send you a Sprig kit to bring it to life! 
                     </p>
+                    <div class="wrapper block">
+                        <img class="w-5/8" src="public/card.png"/>
+                    </div>
+                    
+                </div>
+                
+    
+                <div class="w-full flex flex-col gap-2 p-4 rounded-lg">
+                    <span class="font-bold text-2xl md:text-3xl">Electric Trinkets  ✨</span>
+                    <p class="text-base md:text-sm">
+                        Dive into the fun of PCB design with <a href="">OnBoard</a> at our hackathon. Create your own custom circuit boards and get them professionally made and delivered right to your door.
+                    </p>
+                    <div class="wrapper block">
+                        <img class="w-5/8" src="public/sprig.png"/>
+                    </div>
                 </div>
     
-                <div class="w-full flex flex-col gap-2 p-3 border-2 border-red-300 rounded-lg bg-neutral-200">
-                    <span class="font-bold text-2xl md:text-3xl">PCB!</span>
+                <div class="w-full flex flex-col gap-2 p-4 rounded-lg">
+                    <span class="font-bold text-2xl md:text-3xl">Code Your Own Art  🎨</span>
                     <img src=""/>
                     <p class="text-base md:text-sm">
-                        
-Dive into the fun of PCB design with OnBoard at our hackathon! Create your own custom circuit boards and get them professionally made and delivered right to your door.
+                        Get creative with <a href="">Blot</a> at our hackathon. Write a cool program to make art, and we'll get you set up with a CNC machine to bring it to life. Let's make some awesome artwork together!
                     </p>
-                </div>
-    
-                <div class="w-full flex flex-col gap-2 p-3 border-2 border-red-300 rounded-lg bg-neutral-200">
-                    <span class="font-bold text-2xl md:text-3xl">Blot!</span>
-                    <img src=""/>
-                    <p class="text-base md:text-sm">
-                        
-Get creative with Blot at our hackathon! Just write a cool program to make art, and we'll get you set up with a CNC machine to bring it to life. Let's make some awesome artwork together!
-                    </p>
-                </div>
+                    <div class="wrapper block">
+                        <img class="w-5/8" src="public/card.png"/>
+                    </div>
             </div>
         </section>
 
         <section class="w-full flex flex-col gap-5 ">
-            <span class="font-bold text-5xl">FAQ</span>
+            <span class="font-bold text-2xl md:text-3xl gradient-text">Frequently Asked <button class="inline block">Questions</button></span>
             
             <div class="flex flex-col gap-3 items-center">
                 <div class="border-2 border-solid border-black">
-                    <span class="font-bold text-2xl">What if i have never coded before? Can i still come?</span>
-                    <p>
-                        Of course! Our hackathon is open to all skill levels, including beginners. We&apos;ll have workshops and mentors to help you get started and support you throughout the event.
+                    <span class="font-bold text-2xl ">What if I have never coded before? Can I still come?</span>
+                    <p class="block">
+                        > Of course! Our hackathon is open to all skill levels, including beginners. We&apos;ll have workshops and mentors to help you get started and support you throughout the event.
                     </p>
                 </div>
+            </div>
                 <div class="border-2 border-solid border-black">
                     <span class="font-bold text-2xl">What should I bring to the hackathon?</span>
-                    <p>
-                        Bring your enthusiasm, creativity, and a laptop if you have one. Don't worry if you don't have a laptop; we&apos;ll do our best to provide resources for everyone.
+                    <p class="block">
+                        > Bring your enthusiasm, creativity, and a laptop if you have one. Don't worry if you don't have a laptop; we&apos;ll do our best to provide resources for everyone.
                     </p>
                 </div>
                 <div class="border-2 border-solid border-black">
                     <span class="font-bold text-2xl">Is there a team requirement?</span>
-                    <p>
-                        Teams are encouraged but not mandatory. You can come solo or form a team with friends. If you come solo, we&apos;ll help you find teammates with similar interests and skills during the event.
+                    <p class="block">
+                        > Teams are encouraged but not mandatory. You can come solo or form a team with friends. If you come solo, we&apos;ll help you find teammates with similar interests and skills during the event.
                     </p>
                 </div>
             </div>
         </section>
 
         <section>
-            Pictures here
+            <div class="wrapper block">
+                <img class="w-5/8" src="public/boston.jpg"/>
+            </div>
+
+           
+
+
         </section>
     </main>
 
-    <footer class="w-full bg-orange-400 px-5 md:px-[20vw] flex flex-col gap-10">
-       <button>
-        Register Today
-       </button>
+    <footer class="w-full pb-12 bg-orange-400 px-5 md:px-[20vw] justify-center flex flex-col gap-10">
     </footer>
 
-    <!-- You can include scripts here if needed -->
 </body>
 
 </html>
