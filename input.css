@@ -6,8 +6,29 @@
 
 body {
     font-family:"Inter",sans-serif;
+    background-color: #FEE8D6;
 }
 
 p {
     font-size:18px;
+}
+
+a {
+    text-decoration-style: wavy;
+    color: #4f70be8b;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration-style: wavy;
+    color: #4f70be;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
 }
