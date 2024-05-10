@@ -558,15 +558,18 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 768px) {
   .container {
     max-width: 640px;
   }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  body {
+    margin: 0 24px;
+  }
+  header h1, span.items-start {
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -16px;
   }
 }
 
