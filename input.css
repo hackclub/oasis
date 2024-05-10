@@ -6,7 +6,7 @@
 
 body {
     font-family:"Inter",sans-serif;
-    background-color: #FEE8D6;
+    background-image: linear-gradient(to bottom right, #bec1ff53, #fcae9497);
 }
 
 p {
@@ -15,20 +15,30 @@ p {
 
 a {
     text-decoration-style: wavy;
-    color: #4f70be8b;
+    color: #dc4523ba;
     text-decoration-line: underline;
     text-underline-offset: 2px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 a:hover {
     text-decoration-style: wavy;
-    color: #4f70be;
+    color: #dc4523;
     text-decoration-line: underline;
     text-underline-offset: 4px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 footer {
     text-align: center;
 }
+
+.half {
+    width: 395px;
+}
+
+.footer {
+    padding: 35px;
+    font-weight: 600;
+}
+
