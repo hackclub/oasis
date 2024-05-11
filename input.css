@@ -33,6 +33,11 @@ footer {
     text-align: center;
 }
 
+.hero-title {
+    font-weight:600;
+    line-height:1;
+}
+
 .half {
     width: 395px;
 }
@@ -42,3 +47,21 @@ footer {
     font-weight: 600;
 }
 
+@media (max-width: 768px) {
+    .hero-title {
+        font-size:44px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-title {
+        font-size:54px;
+    }
+}
+
+  
+@media (min-width: 1024px) {
+    .hero-title {
+        font-size:60px;
+    }
+}
