@@ -17,6 +17,11 @@
             color: transparent;
             background-image: linear-gradient(to right, #ed6031c6, #9194ffba);
         }
+        .dropdown-text {
+            display: none;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
     </style>
 </head>
 
@@ -32,7 +37,12 @@
         <h1 class="hero-title">Oasis is a <inline class="title-wave gradient-text">social coding event</inline> for teenagers in Austin </h1>
     </header>
     
-    <span class="text-center items-start px-5 md:px-[20vw] text-xl pt-12 md:text-xl">June 8, 2024 @ <a href="https://futo.org/">FUTO Headquarters</a> • <button><a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html">Girl Scout Registration</button></a></span>
+    <span class="text-center items-start px-5 md:px-[20vw] text-xl pt-12 md:text-xl">
+        June 8, 2024 @ <a href="https://futo.org/">FUTO Headquarters</a> • 
+        <button><a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html">Girl Scout Registration</a></button> • 
+        <button id="public-registration-btn">Public Registration</button>
+    </span>
+    <p id="dropdown-text" class="text-center dropdown-text">Email your interest to marianna@hackclub.com</p>
 
     <main class="w-full md:px-[20vw] flex flex-col gap-20">
         
@@ -116,6 +126,17 @@
         </section>
 
     </main>
+
+    <script>
+        document.getElementById('public-registration-btn').addEventListener('click', function() {
+            var dropdownText = document.getElementById('dropdown-text');
+            if (dropdownText.style.display === 'none' || dropdownText.style.display === '') {
+                dropdownText.style.display = 'block';
+            } else {
+                dropdownText.style.display = 'none';
+            }
+        });
+    </script>
 
 
 </body>
