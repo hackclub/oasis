@@ -19,16 +19,29 @@
         }
         .dropdown-text {
             display: none;
-            margin-top: 2px;
-            font-size: 1.5rem;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+        .button {
+            text-decoration-style: wavy;
+            color: #dc4523ba;
+            text-decoration-line: underline;
+            text-underline-offset: 2px;
+            font-weight: 400;
+        }
+        .button:hover {
+            text-decoration-style: wavy;
+            color: #dc4523;
+            text-decoration-line: underline;
+            text-underline-offset: 3px;
+            font-weight: 600;
         }
     </style>
 </head>
 
-
 <body class="flex flex-col gap-10">
     <navbar class="w-full flex flex-col md:px-[20vw]">
-        <ul class="flex flex-row justify-between sticky ">
+        <ul class="flex flex-row justify-between sticky">
             <img class="w-1/4" src="public/flag-orpheus-top.png"/>
         </ul>
     </navbar>
@@ -38,8 +51,8 @@
     </header>
     
     <span class="text-center items-start px-5 md:px-[20vw] text-xl pt-12 md:text-xl">
-        June 8, 2024 @ <a href="https://futo.org/">FUTO Headquarters</a> • 
-        <button><a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html" class="button">Girl Scout Registration</a> • 
+        June 8, 2024 @ <a href="https://futo.org/" class="button">FUTO Headquarters</a> • 
+        <a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html" class="button">Girl Scout Registration</a> • 
         <button id="public-registration-btn" class="button">Public Registration</button>
     </span>
     <p id="dropdown-text" class="text-center dropdown-text">Email your interest to marianna@hackclub.com</p>
@@ -47,7 +60,6 @@
     <main class="w-full md:px-[20vw] flex flex-col gap-20">
         
         <section class="flex flex-col gap-5">
-            
             <span class="font-bold text-2xl md:text-3xl gradient-text">What Are <button class="inline block">"Hackathons" 💻</button></span>
             <p class="w-1/2">
                 A <a href="https://hackclub.com/hackathons/" target="_blank">hackathon</a> is a social coding marathon where teenagers come together to build projects for a weekend and share them with the world. We welcome all high school programmers, artists, dreamers, creators to join us for 8 hours of building, exploring, and sharing.
@@ -56,29 +68,27 @@
                 The <a href="https://the.hackfoundation.org/" target="_blank">Hack Foundation</a> <a href="https://daysofservice.hackclub.com/" target="_blank">Days-of-Service</a> initiative aims to help girls and gender minorities write their first lines of code. Partnering with Girls Scouts across the nation, the DOS initiative approaches Computer Science with beginner-friendly workshops.
             </p>
         </section>
+
         <section class="w-full flex flex-col justify-between gap-5 ">
             <span class="font-bold text-2xl md:text-3xl gradient-text">Our Learning <button class="inline block">Tracks 📚</button></span>
     
             <div class="w-full flex flex-col gap-2 p-4">
                 <span class="font-bold text-xl md:text-xl">Video Game Development 👾</span>
-                    <p>
-                        Join the fun with <a href="https://sprig.hackclub.com/" target="_blank">Sprig Game Engine</a> at our hackathon. With our game console, everyone's a creator. Design, compose music, and build games using our web-based editor. Create your own unique game, and we'll send you a Sprig kit to bring it to life! 
-                    </p>
-                    <div class="wrapper block">
-                        <img class="w-5/8" src="public/card.png"/>
-                    </div>
-                    
+                <p>
+                    Join the fun with <a href="https://sprig.hackclub.com/" target="_blank">Sprig Game Engine</a> at our hackathon. With our game console, everyone's a creator. Design, compose music, and build games using our web-based editor. Create your own unique game, and we'll send you a Sprig kit to bring it to life! 
+                </p>
+                <div class="wrapper block">
+                    <img class="w-5/8" src="public/card.png"/>
                 </div>
-                
-    
-                <div class="w-full flex flex-col gap-2 p-4 rounded-lg">
-                    <span class="font-bold text-xl md:text-xl">Electric Trinkets  ✨</span>
-                    <p class="text-base md:text-sm">
-                        Dive into the fun of PCB design with an <a href="https://hackclub.com/onboard/" target="_blank">OnBoard Grant</a> at our hackathon. Create your own custom circuit boards keychains and get them professionally made and delivered right to your door.
-                    </p>
-                    <div class="wrapper block">
-                        <img class="w-5/8" src="public/sprig.png"/>
-                    </div>
+            </div>
+            
+            <div class="w-full flex flex-col gap-2 p-4 rounded-lg">
+                <span class="font-bold text-xl md:text-xl">Electric Trinkets ✨</span>
+                <p class="text-base md:text-sm">
+                    Dive into the fun of PCB design with an <a href="https://hackclub.com/onboard/" target="_blank">OnBoard Grant</a> at our hackathon. Create your own custom circuit boards keychains and get them professionally made and delivered right to your door.
+                </p>
+                <div class="wrapper block">
+                    <img class="w-5/8" src="public/sprig.png"/>
                 </div>
             </div>
         </section>
@@ -91,14 +101,15 @@
                     <div class="border-2 border-solid border-black">
                         <span class="font-bold text-2xl">✦   Who Can Attend?</span>
                         <p class="block">
-                            > This event is for teenagers, including Girl Scouts, and all other girls and nonbinary teenagers from the Austin area. Girl Scouts should sign up through the <button><a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html">Girl Scouts Registration.</button></a> </span>
-                        All other teenagers interested in attending should email: <a href= "mailto:marianna@hackclub.com">marianna@hackclub.com </a>and ask to be registered.</p>
-                    <span class="font-bold text-2xl ">✦   What if I have never coded before? Can I still come?</span>
-                    <p class="block">
-                        > Of course! Our hackathon is open to all skill levels, including beginners. We&apos;ll have workshops and mentors to help you get started and support you throughout the event.
-                    </p>
+                            > This event is for teenagers, including Girl Scouts, and all other girls and nonbinary teenagers from the Austin area. Girl Scouts should sign up through the <a href="https://www.gsctx.org/en/sf-events-repository/2024/save-the-date--hack-club-hackathon--c-s-a--6-8-24.html" class="button">Girl Scouts Registration</a>.
+                        </p>
+                        All other teenagers interested in attending should email: <a href="mailto:marianna@hackclub.com">marianna@hackclub.com</a> and ask to be registered.
+                        <span class="font-bold text-2xl">✦   What if I have never coded before? Can I still come?</span>
+                        <p class="block">
+                            > Of course! Our hackathon is open to all skill levels, including beginners. We&apos;ll have workshops and mentors to help you get started and support you throughout the event.
+                        </p>
+                    </div>
                 </div>
-            </div>
                 <div class="border-2 border-solid border-black">
                     <span class="font-bold text-2xl">✦   What should I bring to the hackathon?</span>
                     <p class="block">
@@ -111,20 +122,18 @@
                         > Teams are encouraged but not mandatory. You can come solo or form a team with friends. If you come solo, we&apos;ll help you find teammates with similar interests and skills during the event.
                     </p>
                 </div>
-                <div class="border-2 border-solid  border-black">
+                <div class="border-2 border-solid border-black">
                     <span class="font-bold text-2xl">✦   I have more questions ?!</span>
                     <p class="block">
-                        > If you have any more questions about the event, feel free to email our coordinator <a href="mailto:nila@hackclub.com">Nila Palmo Ram</a> 
+                        > If you have any more questions about the event, feel free to email our coordinator <a href="mailto:nila@hackclub.com">Nila Palmo Ram</a>. 
                     </p>
                 </div>
             </div>
         </section>
 
         <section>
-                <p class=" footer text-center">Made with <button class="inline block">❤</button> + <button class="inline block">✦</button> @ <a href="https://hackclub.com/" target="_blank">Hack Club</a></p>
-
+            <p class="footer text-center">Made with <button class="inline block">❤</button> + <button class="inline block">✦</button> @ <a href="https://hackclub.com/" target="_blank">Hack Club</a></p>
         </section>
-
     </main>
 
     <script>
@@ -137,9 +146,6 @@
             }
         });
     </script>
-
-
 </body>
-
 
 </html>
