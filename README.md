@@ -1,7 +1,7 @@
 # Oasis 🏜️
-<img width="700" alt="Screenshot 2024-06-12 at 2 43 38 PM" src="https://github.com/hackclub/oasis/assets/118136785/ee20ab61-8d21-471b-9caa-01cc02e4ae8a">
+<img width="700" alt="Screenshot 2024-06-12 at 2 43 38 PM" src="https://github.com/hackclub/oasis/assets/118136785/40c811fc-f0e2-445f-a281-7af26f69762f">
 
-Horizon was [Hack Club](https://hackclub.com/)'s first all-female/nonbinary hackathon weekend! From 24th - March 26th, 18 Hack Clubbers from across the US gathered in New York City to host a 1-day hackathon with Girl Scouts of Greater NY where 37 Girl Scouts wrote their first line of code! It included 4 workshops in building websites, creating a game in JavaScript, and much more. After the hackathon, Hack Clubbers hosted a dinner with incredible female leaders. 
+Oasis was [Hack Club](https://hackclub.com/)'s 10th all-female/nonbinary hackathon weekend! From June 6th-8th, 7 Hack Clubbers from across the US gathered in Austin, Texas to host a 6-hour hackathon with Girl Scouts of Central Texas, where 25 Girl Scouts wrote their first line of code! It included 2 workshops in PCB Development with Hack Club's [OnBoard Grant](https://hackclub.com/onboard/) and [Sprig Video Game Development]([https://hackclub.com/onboard/](https://sprig.hackclub.com/)). 
 
 The goal of this repository is to be a reference for high schoolers looking to organise their own beginner-focused hackathon and corresponding dinner. This is our digital footprint of this event, we hope this will serve as inspiration for future events. 
 
