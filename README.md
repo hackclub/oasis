@@ -1,4 +1,4 @@
-## 🏜️ Oasis
+# 🏜️ Oasis
 <img width="700" alt="Screenshot 2023-04-04 at 9 19 55 AM" src="https://github.com/hackclub/oasis/assets/118136785/dd7e500a-aa2a-41ef-a6a1-6d45804a1925">
 
 Oasis was [Hack Club’s](hackclub.com) tenth all-female/non-binary hackathon weekend! From June 7th-8th, 7 Hack Clubbers from across the US delivered an event in Austin Texas in collaboration with the Girl Scouts of Central Texas and FUTO Headquarters, where 25 participants wrote their first lines of code. The event includes 2 workshops in Sprig Video Game Development and OnBoard PCB Design. Ahead of the hackathon, Hack Clubbers hosted a dinner with incredible female leaders from across Austin.
