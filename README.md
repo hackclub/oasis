@@ -1,8 +1,8 @@
 ## 🏜️ Oasis
 
-Oasis was Hack Club’s (hackclub.com) tenth all-female/non-binary hackathon weekend! From June 7th-8th, 7 Hack Clubbers from across the US delivered an event in Austin Texas in collaboration with the Girl Scouts of Central Texas and FUTO Headquarters, where 25 participants wrote their first lines of code. The event includes 2 workshops in Sprig Video Game Development and OnBoard PCB Design. Ahead of the hackathon, Hack Clubbers hosted a dinner with incredible female leaders from across Austin.
+Oasis was [Hack Club’s](hackclub.com) tenth all-female/non-binary hackathon weekend! From June 7th-8th, 7 Hack Clubbers from across the US delivered an event in Austin Texas in collaboration with the Girl Scouts of Central Texas and FUTO Headquarters, where 25 participants wrote their first lines of code. The event includes 2 workshops in Sprig Video Game Development and OnBoard PCB Design. Ahead of the hackathon, Hack Clubbers hosted a dinner with incredible female leaders from across Austin.
 
-*This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@zsh](https://hackclub.slack.com/team/U016S3C7JS2) on Slack. You can also view our open-source planning in the Hack Club Slack #oasis channel!
+_This repo is meant to serve as a point of reference for anyone wanting to organize their own Day of Service! If you have any other questions, reach out to [@zsh](https://hackclub.slack.com/team/U016S3C7JS2) on Slack. You can also view our open-source planning in the Hack Club Slack #oasis channel!_
 
 ## 🎯 Our Goals
 
