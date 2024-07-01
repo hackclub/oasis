@@ -1,4 +1,5 @@
 ## 🏜️ Oasis
+<img width="700" alt="Screenshot 2023-04-04 at 9 19 55 AM" src="https://github.com/hackclub/oasis/assets/118136785/dd7e500a-aa2a-41ef-a6a1-6d45804a1925">
 
 Oasis was [Hack Club’s](hackclub.com) tenth all-female/non-binary hackathon weekend! From June 7th-8th, 7 Hack Clubbers from across the US delivered an event in Austin Texas in collaboration with the Girl Scouts of Central Texas and FUTO Headquarters, where 25 participants wrote their first lines of code. The event includes 2 workshops in Sprig Video Game Development and OnBoard PCB Design. Ahead of the hackathon, Hack Clubbers hosted a dinner with incredible female leaders from across Austin.
 
@@ -54,15 +55,13 @@ Every expense made for Horizon has been open sourced [here](https://hcb.hackclu
 ## 💻 Our Workshops
 Oasis had 2 different workshop tracks: Sprig Video Game Development and PCB Development! Here’s an overview of each workshop:
 
-**Sprig Video Game Development**
+**Sprig Video Game Development**: In this workshop, students learned JavaScript and video game design to develop their own pixel-art video games! 
 
-In this workshop, students learned JavaScript and video game design to develop their own pixel-art video games! 
-
-**PCB Development**
-
-In this workshop, students learned the fundamentals of circuit board design in EasyEDA with Hack Club's OnBoard program!
+**PCB Development**: In this workshop, students learned the fundamentals of circuit board design in EasyEDA with Hack Club's OnBoard program!
 
 ## 🍽️ Our Dinner
+<img width="700" alt="Screenshot 2023-04-04 at 9 19 55 AM" src="https://github.com/hackclub/oasis/assets/118136785/30cb3db6-53b2-4d95-8e78-be6f48fdfaf8">
+
 Ahead the hackathon, we had an amazing dinner at Maie Day! In attendance were 18 STEM professionals, 8 Hack Clubbers, 7 Girl Scouts, and 2 Westlake Girls Who Code members.
 
 We started the night off with a round of questions on topics such as how to adapt to AI, advice for managing finances and overcoming failure, and learning about inspiring side projects. This led to some great conversation about societal and gender norms, and how to navigate the workplace while dealing with this.
